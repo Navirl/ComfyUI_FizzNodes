@@ -44,7 +44,7 @@ class convertKeyframeKeysToBatchKeys:
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "input": ("INT", {"forceInput": True, "default": 0}),
+                "input": ("INT", {"default": 0}),
                 "num_latents": ("INT", {"default": 16}),
             }
         }
